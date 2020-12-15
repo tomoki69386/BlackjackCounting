@@ -1,0 +1,7 @@
+git_url('git@github.com:tomoki69386/certificates.git')
+
+type('appstore')
+
+app_identifier(['com.tomoki-sun.app.ios.BlackjackCounting'])
+
+username('developertomokisun@gmail.com')

@@ -1,0 +1,813 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		605BEDB625846D1000C682F7 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605BEDB525846D1000C682F7 /* Tests_iOS.swift */; };
+		605BEDC125846D1000C682F7 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605BEDC025846D1000C682F7 /* Tests_macOS.swift */; };
+		605BEDC325846D1000C682F7 /* BlackjackCountingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605BED9A25846D0F00C682F7 /* BlackjackCountingApp.swift */; };
+		605BEDC425846D1000C682F7 /* BlackjackCountingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605BED9A25846D0F00C682F7 /* BlackjackCountingApp.swift */; };
+		605BEDC725846D1000C682F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 605BED9C25846D1000C682F7 /* Assets.xcassets */; };
+		605BEDC825846D1000C682F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 605BED9C25846D1000C682F7 /* Assets.xcassets */; };
+		605BEDDD25846D4100C682F7 /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605BEDDC25846D4100C682F7 /* CounterView.swift */; };
+		605BEDE825846D6000C682F7 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 605BEDE725846D6000C682F7 /* ComposableArchitecture */; };
+		605BEDEF25846ED300C682F7 /* TrumpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605BEDEE25846ED300C682F7 /* TrumpView.swift */; };
+		605BEDFA25846F3800C682F7 /* PokerHands in Frameworks */ = {isa = PBXBuildFile; productRef = 605BEDF925846F3800C682F7 /* PokerHands */; };
+		605BEE002584757C00C682F7 /* ResetButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605BEDFF2584757C00C682F7 /* ResetButton.swift */; };
+		605BEE0A2585020800C682F7 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605BEE092585020800C682F7 /* RootView.swift */; };
+		605BEE1025852D5D00C682F7 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605BEE0F25852D5D00C682F7 /* AboutView.swift */; };
+		605BEE16258533BA00C682F7 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605BEE15258533BA00C682F7 /* QuestionView.swift */; };
+		605BEE1D2585379D00C682F7 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 605BEE1C2585379D00C682F7 /* ComposableArchitecture */; };
+		605BEE1F2585379D00C682F7 /* PokerHands in Frameworks */ = {isa = PBXBuildFile; productRef = 605BEE1E2585379D00C682F7 /* PokerHands */; };
+		605BEE24258537B000C682F7 /* TrumpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605BEDEE25846ED300C682F7 /* TrumpView.swift */; };
+		605BEE25258537B000C682F7 /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605BEDDC25846D4100C682F7 /* CounterView.swift */; };
+		605BEE26258537B000C682F7 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605BEE15258533BA00C682F7 /* QuestionView.swift */; };
+		605BEE27258537B000C682F7 /* ResetButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605BEDFF2584757C00C682F7 /* ResetButton.swift */; };
+		605BEE28258537B000C682F7 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605BEE092585020800C682F7 /* RootView.swift */; };
+		605BEE29258537B000C682F7 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605BEE0F25852D5D00C682F7 /* AboutView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		605BEDB225846D1000C682F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 605BED9525846D0F00C682F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 605BEDA025846D1000C682F7;
+			remoteInfo = "BlackjackCounting (iOS)";
+		};
+		605BEDBD25846D1000C682F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 605BED9525846D0F00C682F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 605BEDA825846D1000C682F7;
+			remoteInfo = "BlackjackCounting (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		605BED9A25846D0F00C682F7 /* BlackjackCountingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackjackCountingApp.swift; sourceTree = "<group>"; };
+		605BED9C25846D1000C682F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		605BEDA125846D1000C682F7 /* BlackjackCounting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlackjackCounting.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		605BEDA425846D1000C682F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		605BEDA925846D1000C682F7 /* BlackjackCounting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlackjackCounting.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		605BEDAB25846D1000C682F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		605BEDAC25846D1000C682F7 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		605BEDB125846D1000C682F7 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		605BEDB525846D1000C682F7 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		605BEDB725846D1000C682F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		605BEDBC25846D1000C682F7 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		605BEDC025846D1000C682F7 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		605BEDC225846D1000C682F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		605BEDDC25846D4100C682F7 /* CounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
+		605BEDEE25846ED300C682F7 /* TrumpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrumpView.swift; sourceTree = "<group>"; };
+		605BEDFF2584757C00C682F7 /* ResetButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetButton.swift; sourceTree = "<group>"; };
+		605BEE092585020800C682F7 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		605BEE0F25852D5D00C682F7 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		605BEE15258533BA00C682F7 /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		605BED9E25846D1000C682F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				605BEDE825846D6000C682F7 /* ComposableArchitecture in Frameworks */,
+				605BEDFA25846F3800C682F7 /* PokerHands in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		605BEDA625846D1000C682F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				605BEE1D2585379D00C682F7 /* ComposableArchitecture in Frameworks */,
+				605BEE1F2585379D00C682F7 /* PokerHands in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		605BEDAE25846D1000C682F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		605BEDB925846D1000C682F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		605BED9425846D0F00C682F7 = {
+			isa = PBXGroup;
+			children = (
+				605BED9925846D0F00C682F7 /* Shared */,
+				605BEDA325846D1000C682F7 /* iOS */,
+				605BEDAA25846D1000C682F7 /* macOS */,
+				605BEDB425846D1000C682F7 /* Tests iOS */,
+				605BEDBF25846D1000C682F7 /* Tests macOS */,
+				605BEDA225846D1000C682F7 /* Products */,
+				605BEE1B2585379D00C682F7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		605BED9925846D0F00C682F7 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				605BEDDB25846D2700C682F7 /* Views */,
+				605BED9A25846D0F00C682F7 /* BlackjackCountingApp.swift */,
+				605BED9C25846D1000C682F7 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		605BEDA225846D1000C682F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				605BEDA125846D1000C682F7 /* BlackjackCounting.app */,
+				605BEDA925846D1000C682F7 /* BlackjackCounting.app */,
+				605BEDB125846D1000C682F7 /* Tests iOS.xctest */,
+				605BEDBC25846D1000C682F7 /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		605BEDA325846D1000C682F7 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				605BEDA425846D1000C682F7 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		605BEDAA25846D1000C682F7 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				605BEDAB25846D1000C682F7 /* Info.plist */,
+				605BEDAC25846D1000C682F7 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		605BEDB425846D1000C682F7 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				605BEDB525846D1000C682F7 /* Tests_iOS.swift */,
+				605BEDB725846D1000C682F7 /* Info.plist */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		605BEDBF25846D1000C682F7 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				605BEDC025846D1000C682F7 /* Tests_macOS.swift */,
+				605BEDC225846D1000C682F7 /* Info.plist */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		605BEDDB25846D2700C682F7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				605BEDDC25846D4100C682F7 /* CounterView.swift */,
+				605BEE092585020800C682F7 /* RootView.swift */,
+				605BEE0F25852D5D00C682F7 /* AboutView.swift */,
+				605BEE15258533BA00C682F7 /* QuestionView.swift */,
+				605BEDEE25846ED300C682F7 /* TrumpView.swift */,
+				605BEDFF2584757C00C682F7 /* ResetButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		605BEE1B2585379D00C682F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		605BEDA025846D1000C682F7 /* BlackjackCounting (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 605BEDCB25846D1000C682F7 /* Build configuration list for PBXNativeTarget "BlackjackCounting (iOS)" */;
+			buildPhases = (
+				605BED9D25846D1000C682F7 /* Sources */,
+				605BED9E25846D1000C682F7 /* Frameworks */,
+				605BED9F25846D1000C682F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BlackjackCounting (iOS)";
+			packageProductDependencies = (
+				605BEDE725846D6000C682F7 /* ComposableArchitecture */,
+				605BEDF925846F3800C682F7 /* PokerHands */,
+			);
+			productName = "BlackjackCounting (iOS)";
+			productReference = 605BEDA125846D1000C682F7 /* BlackjackCounting.app */;
+			productType = "com.apple.product-type.application";
+		};
+		605BEDA825846D1000C682F7 /* BlackjackCounting (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 605BEDCE25846D1000C682F7 /* Build configuration list for PBXNativeTarget "BlackjackCounting (macOS)" */;
+			buildPhases = (
+				605BEDA525846D1000C682F7 /* Sources */,
+				605BEDA625846D1000C682F7 /* Frameworks */,
+				605BEDA725846D1000C682F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BlackjackCounting (macOS)";
+			packageProductDependencies = (
+				605BEE1C2585379D00C682F7 /* ComposableArchitecture */,
+				605BEE1E2585379D00C682F7 /* PokerHands */,
+			);
+			productName = "BlackjackCounting (macOS)";
+			productReference = 605BEDA925846D1000C682F7 /* BlackjackCounting.app */;
+			productType = "com.apple.product-type.application";
+		};
+		605BEDB025846D1000C682F7 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 605BEDD125846D1000C682F7 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				605BEDAD25846D1000C682F7 /* Sources */,
+				605BEDAE25846D1000C682F7 /* Frameworks */,
+				605BEDAF25846D1000C682F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				605BEDB325846D1000C682F7 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = 605BEDB125846D1000C682F7 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		605BEDBB25846D1000C682F7 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 605BEDD425846D1000C682F7 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				605BEDB825846D1000C682F7 /* Sources */,
+				605BEDB925846D1000C682F7 /* Frameworks */,
+				605BEDBA25846D1000C682F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				605BEDBE25846D1000C682F7 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = 605BEDBC25846D1000C682F7 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		605BED9525846D0F00C682F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					605BEDA025846D1000C682F7 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					605BEDA825846D1000C682F7 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					605BEDB025846D1000C682F7 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 605BEDA025846D1000C682F7;
+					};
+					605BEDBB25846D1000C682F7 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 605BEDA825846D1000C682F7;
+					};
+				};
+			};
+			buildConfigurationList = 605BED9825846D0F00C682F7 /* Build configuration list for PBXProject "BlackjackCounting" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 605BED9425846D0F00C682F7;
+			packageReferences = (
+				605BEDE625846D6000C682F7 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+				605BEDF825846F3800C682F7 /* XCRemoteSwiftPackageReference "PokerHands" */,
+			);
+			productRefGroup = 605BEDA225846D1000C682F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				605BEDA025846D1000C682F7 /* BlackjackCounting (iOS) */,
+				605BEDA825846D1000C682F7 /* BlackjackCounting (macOS) */,
+				605BEDB025846D1000C682F7 /* Tests iOS */,
+				605BEDBB25846D1000C682F7 /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		605BED9F25846D1000C682F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				605BEDC725846D1000C682F7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		605BEDA725846D1000C682F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				605BEDC825846D1000C682F7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		605BEDAF25846D1000C682F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		605BEDBA25846D1000C682F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		605BED9D25846D1000C682F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				605BEE002584757C00C682F7 /* ResetButton.swift in Sources */,
+				605BEDEF25846ED300C682F7 /* TrumpView.swift in Sources */,
+				605BEDC325846D1000C682F7 /* BlackjackCountingApp.swift in Sources */,
+				605BEE16258533BA00C682F7 /* QuestionView.swift in Sources */,
+				605BEDDD25846D4100C682F7 /* CounterView.swift in Sources */,
+				605BEE1025852D5D00C682F7 /* AboutView.swift in Sources */,
+				605BEE0A2585020800C682F7 /* RootView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		605BEDA525846D1000C682F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				605BEE26258537B000C682F7 /* QuestionView.swift in Sources */,
+				605BEE29258537B000C682F7 /* AboutView.swift in Sources */,
+				605BEE27258537B000C682F7 /* ResetButton.swift in Sources */,
+				605BEE28258537B000C682F7 /* RootView.swift in Sources */,
+				605BEDC425846D1000C682F7 /* BlackjackCountingApp.swift in Sources */,
+				605BEE24258537B000C682F7 /* TrumpView.swift in Sources */,
+				605BEE25258537B000C682F7 /* CounterView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		605BEDAD25846D1000C682F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				605BEDB625846D1000C682F7 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		605BEDB825846D1000C682F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				605BEDC125846D1000C682F7 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		605BEDB325846D1000C682F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 605BEDA025846D1000C682F7 /* BlackjackCounting (iOS) */;
+			targetProxy = 605BEDB225846D1000C682F7 /* PBXContainerItemProxy */;
+		};
+		605BEDBE25846D1000C682F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 605BEDA825846D1000C682F7 /* BlackjackCounting (macOS) */;
+			targetProxy = 605BEDBD25846D1000C682F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		605BEDC925846D1000C682F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		605BEDCA25846D1000C682F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		605BEDCC25846D1000C682F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AV9FQ3YF56;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tomoki-sun.app.ios.BlackjackCounting";
+				PRODUCT_NAME = BlackjackCounting;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		605BEDCD25846D1000C682F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = AV9FQ3YF56;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tomoki-sun.app.ios.BlackjackCounting";
+				PRODUCT_NAME = BlackjackCounting;
+				PROVISIONING_PROFILE_SPECIFIER = "match AppStore com.tomoki-sun.app.ios.BlackjackCounting";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		605BEDCF25846D1000C682F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = AV9FQ3YF56;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tomoki-sun.app.ios.BlackjackCounting";
+				PRODUCT_NAME = BlackjackCounting;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		605BEDD025846D1000C682F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = AV9FQ3YF56;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tomoki-sun.app.ios.BlackjackCounting";
+				PRODUCT_NAME = BlackjackCounting;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		605BEDD225846D1000C682F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AV9FQ3YF56;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tomoki-sun.app.ios.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "BlackjackCounting (iOS)";
+			};
+			name = Debug;
+		};
+		605BEDD325846D1000C682F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AV9FQ3YF56;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tomoki-sun.app.ios.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "BlackjackCounting (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		605BEDD525846D1000C682F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = AV9FQ3YF56;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tomoki-sun.app.ios.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "BlackjackCounting (macOS)";
+			};
+			name = Debug;
+		};
+		605BEDD625846D1000C682F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = AV9FQ3YF56;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tomoki-sun.app.ios.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "BlackjackCounting (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		605BED9825846D0F00C682F7 /* Build configuration list for PBXProject "BlackjackCounting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				605BEDC925846D1000C682F7 /* Debug */,
+				605BEDCA25846D1000C682F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		605BEDCB25846D1000C682F7 /* Build configuration list for PBXNativeTarget "BlackjackCounting (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				605BEDCC25846D1000C682F7 /* Debug */,
+				605BEDCD25846D1000C682F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		605BEDCE25846D1000C682F7 /* Build configuration list for PBXNativeTarget "BlackjackCounting (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				605BEDCF25846D1000C682F7 /* Debug */,
+				605BEDD025846D1000C682F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		605BEDD125846D1000C682F7 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				605BEDD225846D1000C682F7 /* Debug */,
+				605BEDD325846D1000C682F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		605BEDD425846D1000C682F7 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				605BEDD525846D1000C682F7 /* Debug */,
+				605BEDD625846D1000C682F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		605BEDE625846D6000C682F7 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.0;
+			};
+		};
+		605BEDF825846F3800C682F7 /* XCRemoteSwiftPackageReference "PokerHands" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/tomoki69386/PokerHands";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		605BEDE725846D6000C682F7 /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 605BEDE625846D6000C682F7 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+		605BEDF925846F3800C682F7 /* PokerHands */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 605BEDF825846F3800C682F7 /* XCRemoteSwiftPackageReference "PokerHands" */;
+			productName = PokerHands;
+		};
+		605BEE1C2585379D00C682F7 /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 605BEDE625846D6000C682F7 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+		605BEE1E2585379D00C682F7 /* PokerHands */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 605BEDF825846F3800C682F7 /* XCRemoteSwiftPackageReference "PokerHands" */;
+			productName = PokerHands;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 605BED9525846D0F00C682F7 /* Project object */;
+}
