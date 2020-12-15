@@ -11,7 +11,7 @@ import ComposableArchitecture
 struct AboutState: Equatable {
     let applicationReviewUrl = URL(string: "https://apps.apple.com/jp/app/id1544949227?mt=8&action=write-review")!
     let developerTwitterUrl = URL(string: "https://twitter.com/tomoki_sun")!
-    let privacyPolicyUrl = URL(string: "https://twitter.com/tomoki_sun")!
+    let privacyPolicyUrl = URL(string: "https://tomoki69386.github.io/BlackjackCounting/PrivacyPolicy")!
     let openSourceSoftwareUrl = URL(string: "http://github.com/tomoki69386/BlackjackCounting")!
     
     let versionNumber = Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as? String ?? ""
