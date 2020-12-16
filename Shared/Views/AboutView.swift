@@ -63,21 +63,6 @@ struct AboutView: View {
                             .foregroundColor(.secondary)
                     }
                 }
-                Section {
-                    NavigationLink(
-                        destination: QuestionView(
-                            store: .init(
-                                initialState: .init(),
-                                reducer: questionReducer,
-                                environment: .init()
-                            )
-                        ),
-                        label: {
-                            Text("カウンティングとは")
-                                .foregroundColor(.primary)
-                                .font(.body)
-                        })
-                }
             }
             .navigationTitle("About")
         }
